@@ -23,6 +23,10 @@ from reportlab.pdfbase.ttfonts import TTFont
 
 load_dotenv()
 
+from auth import check_password
+if not check_password():
+    st.stop()
+
 # ── 색상 (UC CI + 보조) ──────────────────────────────────────────────────────
 NAVY          = "#1B3A5C"   # 사이드바·강조 (딥 네이비)
 NAVY_DARK     = "#122840"   # 사이드바 진한
