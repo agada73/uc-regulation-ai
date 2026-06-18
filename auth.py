@@ -10,6 +10,14 @@ def check_password():
     st.markdown("""
 <style>
 .stApp { background: #F4F5F7; }
+footer { visibility: hidden !important; height: 0 !important; }
+#MainMenu { visibility: hidden !important; }
+[data-testid="stToolbar"] { display: none !important; }
+[data-testid="stBottom"] { display: none !important; }
+[data-testid="stDecoration"] { display: none !important; }
+.viewerBadge_container__r5tak { display: none !important; }
+.viewerBadge_link__qRIco { display: none !important; }
+#stDecoration { display: none !important; }
 .login-box {
     max-width: 380px;
     margin: 8rem auto;

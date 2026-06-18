@@ -189,9 +189,14 @@ header[data-testid="stHeader"] {{ background: transparent; }}
 hr {{ border-color: #DDE2E8; margin: 1.4rem 0; }}
 
 /* Streamlit 워터마크 제거 */
-footer {{ visibility: hidden; }}
-#MainMenu {{ visibility: hidden; }}
-[data-testid="stToolbar"] {{ display: none; }}
+footer {{ visibility: hidden !important; height: 0 !important; }}
+#MainMenu {{ visibility: hidden !important; }}
+[data-testid="stToolbar"] {{ display: none !important; }}
+[data-testid="stBottom"] {{ display: none !important; }}
+[data-testid="stDecoration"] {{ display: none !important; }}
+.viewerBadge_container__r5tak {{ display: none !important; }}
+.viewerBadge_link__qRIco {{ display: none !important; }}
+#stDecoration {{ display: none !important; }}
 </style>
 """, unsafe_allow_html=True)
 
