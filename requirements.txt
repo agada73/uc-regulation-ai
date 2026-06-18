@@ -1,0 +1,7 @@
+streamlit
+anthropic
+requests
+beautifulsoup4
+python-dotenv
+reportlab
+markdown
