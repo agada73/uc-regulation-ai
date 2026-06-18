@@ -187,6 +187,11 @@ header[data-testid="stHeader"] {{ background: transparent; }}
 .stDownloadButton button:hover {{ background: {NAVY_PALE}; }}
 
 hr {{ border-color: #DDE2E8; margin: 1.4rem 0; }}
+
+/* Streamlit 워터마크 제거 */
+footer {{ visibility: hidden; }}
+#MainMenu {{ visibility: hidden; }}
+[data-testid="stToolbar"] {{ display: none; }}
 </style>
 """, unsafe_allow_html=True)
 
